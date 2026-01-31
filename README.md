@@ -15,7 +15,7 @@ Because it is built as a **SaaS (Software as a Service)** application, multiple 
 ---
 
 ## Objective
-The goal for this week is to:
+The goal is to:
 - Learn the basics of payroll systems and how they work  
 - Set up the core technical environment for full-stack development  
 - Build a strong foundation for expanding the platform with more features later
@@ -31,9 +31,10 @@ The goal for this week is to:
 ## Project Structure
 ```
 payroll-app/
-├─ frontend/        
-├─ backend/         
-└─ database/        
+├─ frontend/
+├─ backend/
+├─ database/
+├─ docs/           
 ```
 
 ---
@@ -54,3 +55,12 @@ payroll-app/
  - **Planned upgrade:** In later versions, Prisma ORM will be introduced to simplify migrations, provide type-safe queries, and improve scalability.
 
  ---
+
+ ## Documentation
+Detailed documentation is available in the `docs/` folder:
+- [Database Schema](docs/schema.md)  
+- [Backend Architecture](docs/backend.md)  
+- [Frontend Planning](docs/frontend.md)  
+- [REST API Documentation](docs/api.md) 
+
+---
