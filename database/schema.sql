@@ -1,0 +1,1 @@
+-- Implemented Prisma ORM for PostgreSQL - located abackend folder under `prisma/`
