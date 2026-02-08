@@ -5,6 +5,24 @@ It explains tables, columns, primary/foreign keys, and relationships.
 
 ---
 
+## Structure
+
+This backend implements **Prisma ORM** for database access. 
+- All Prisma files (`schema.prisma`, migrations, and generated client) are located inside the backend folder. 
+- The database client is initialized and exported here for use across backend services. 
+- We originally considered a separate `database` folder, but to avoid configuration issues and simplify deployment, everything is consolidated under `backend`. 
+
+---
+
+## Usage 
+Run Prisma commands from the backend folder: 
+```bash 
+npx prisma migrate dev 
+npx prisma generate
+```
+
+---
+
 ## Tables
 
 ### 1. Departments
