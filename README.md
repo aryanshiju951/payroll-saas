@@ -33,7 +33,6 @@ The goal is to:
 payroll-app/
 ├─ frontend/
 ├─ backend/
-├─ database/
 ├─ docs/           
 ```
 
@@ -50,9 +49,8 @@ payroll-app/
  - Initialized a modern frontend environment (React/Vite).
  - Structured components for future payroll dashboards and forms. 
 ### Database
- - Created initial schema for user tables (employees, attendance, payroll).  
- - Currently using raw SQL + `pg` for queries. 
- - **Planned upgrade:** In later versions, Prisma ORM will be introduced to simplify migrations, provide type-safe queries, and improve scalability.
+- Initial schema created for user tables (employees, attendance, payroll) using **Prisma ORM** with PostgreSQL.
+- All Prisma files — `schema.prisma`, migrations, and the generated client — are located inside the backend folder under `prisma/`.
 
  ---
 
