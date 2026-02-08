@@ -5,8 +5,7 @@ export default function Navbar() {
       <div className="navbar-brand">Payroll System</div>
       <ul className="navbar-links">
         <li><a href="/">Employees</a></li>
-        <li><a href="/reports">Reports</a></li>
-        <li><a href="/settings">Settings</a></li>
+        
       </ul>
     </nav>
   );
