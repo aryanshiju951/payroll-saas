@@ -16,6 +16,7 @@ app.use(cors({
 app.use(express.json());
 
 app.use(employeeRoutes);
+app.use(payrollRoutes);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
